@@ -9,7 +9,7 @@ import java.util.List;
  * @author Julian Latendorf
  */
 public class AddressBook {
-    List<Contact> contacts;
+    private List<Contact> contacts;
 
     /**
      * Erstellt ein neues, leeres Adressbuch.
@@ -21,22 +21,39 @@ public class AddressBook {
     /**
      * Fügt einen Kontakt in das Adressbuch.
      *
-     * @param neuerKontakt hinzuzufügender Kontakt
+     * @param newContact hinzuzufügender Kontakt
      */
-    public void addContact(Contact neuerKontakt) {
-        this.contacts.add(neuerKontakt);
+    public void addContact(Contact newContact) {
+        this.contacts.add(newContact);
+    }
+
+    /**
+     * Entfernt einen Kontakt.
+     *
+     * @param c zu entfernender Kontakt
+     */
+    public void removeContact(Contact c) {
+        this.contacts.remove(c);
+    }
+
+    /**
+     * Entfernt alle Kontakte.
+     */
+    public void clearContacts() {
+        this.contacts.clear();
     }
 
     /**
      * Sucht nach Zeichenfolge im Adressbuch und gibt die entsprechenden Kontakte aus.
      *
      * @param search zu suchende Zeichen
-     * @return fromatierte Kontakte mit Übereinstimmung
+     * @return fromatierte Kontakte, die mit der Suche übereinstimmen
      */
     public String searchContacts(String search) {
         String ergebnis = "Suchergebnisse: \n";
         for (Contact k : this.contacts) {
-            if ((k.toString().toLowerCase()).contains(search.toLowerCase())) {
+            String name = k.getFirstName() + k.getLastName();
+            if ((name.toLowerCase()).contains(search.toLowerCase())) {
                 ergebnis += "\t" + k + "; \n";
             }
         }
