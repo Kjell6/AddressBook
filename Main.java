@@ -31,6 +31,7 @@ public class Main {
         Phone p3 = new Phone("+98", "765", "43210987");
         Contact jamesBond = new Contact("James", "Bond", a3, p3);
 
+        //Test
         Address a4 = new Address("Arndtstraße 11", "23566", "Lübeck", "Deutschland");
         Phone p4 = new Phone("+46", "873", "98754789");
         Contact julian = new Contact("Julian", "Latendorf", a4, p4);
