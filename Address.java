@@ -5,21 +5,23 @@
  * @author Julian Latendorf
  */
 
-public class Address {
+public class Address extends Entry {
     private String street;
     private String postalCode;
     private String city;
     private String country;
 
     /**
-     * Erstellt ein Address Objekt mit Straße, PLZ, Stadt, Land.
+     * Erstellt ein Address Objekt mit Beschereibung, Straße, PLZ, Stadt, Land.
      *
+     * @param t Beschreibung
      * @param str Straße
      * @param plc Postleitzahl
      * @param cty Stadt
      * @param cou Land
      */
-    public Address(String str, String plc, String cty, String cou) {
+    public Address(String t, String str, String plc, String cty, String cou) {
+        super(t);
         this.street = str;
         this.postalCode = plc;
         this.city = cty;
@@ -70,7 +72,7 @@ public class Address {
      * @return formatierte Zeichenfolge
      */
     public String toString() {
-        return String.format("%s, %s %s, %s",
-                this.street, this.postalCode, this.city, this.country);
+        return String.format("%s: %s, %s %s, %s",
+                super.getTopic(), this.street, this.postalCode, this.city, this.country);
     }
 }

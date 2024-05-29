@@ -4,20 +4,22 @@
  * @author Kjell Behrends
  * @author Julian Latendorf
  */
-public class Phone {
+public class Phone extends Entry{
 
     private String areaCode;
     private String prefix;
     private String number;
 
     /**
-     * Erstellt ein Phone-Objekt mit den angegebenen Daten.
+     * Erstellt ein Phone-Objekt mit den angegebenen Daten und einer Beschreibung.
      *
+     * @param t Beschreibung
      * @param ac Vorwahl
      * @param p Präfix
      * @param n Nummer
      */
-    public Phone(String ac, String p, String n) {
+    public Phone(String t, String ac, String p, String n) {
+        super(t);
         this.areaCode = ac;
         this.prefix = p;
         this.number = n;
@@ -58,6 +60,7 @@ public class Phone {
      * @return formatierte Zeichenfolge
      */
     public String toString() {
-        return areaCode + " " + prefix + " " + number;
+        return String.format("%s: %s %s %s",
+                super.getTopic(), this.areaCode, this.prefix, this.number);
     }
 }
