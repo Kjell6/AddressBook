@@ -1,0 +1,29 @@
+Max,Mustermann,Privat,Musterstraße 123,12345,Musterstadt,Deutschland,Privat,49,30,123456789
+Anna,Musterfrau,Privat,Musterweg 456,54321,Musterdorf,Deutschland,Privat,49,30,987654321
+John,Doe,Büro,Doe-Straße 789,67890,Doeville,USA,Büro,1,212,5551234
+Jane,Smith,Privat,Smith Lane 101,56789,Smithtown,USA,Privat,1,212,9876543
+Hans,Schmidt,Büro,Schmidtstraße 321,98765,Schmidtstadt,Deutschland,Büro,49,40,555666777
+Maria,Garcia,Privat,Garcia Weg 555,54321,Garciadorf,Spanien,Privat,34,91,1234567
+Mohammed,Abdullah,Privat,Abdullah Avenue 789,54321,Abdulland,Saudi-Arabien,Privat,966,11,9876543
+Lisa,Müller,Büro,Müllerweg 101,12345,Müllerdorf,Deutschland,Büro,49,30,999888777
+Ahmed,Khan,Privat,Khan Lane 222,54321,Khanabad,Pakistan,Privat,92,51,444333222
+Sophie,Wong,Privat,Wongstraße 777,54321,Wongdorf,China,Privat,86,10,555666777
+Elena,Ivanova,Büro,Ivanovaplatz 888,12345,Ivanovastadt,Russland,Büro,7,495,1234567
+Nina,Kovač,Privat,Kovačeva ulica 33,10000,Zagreb,Kroatien,Privat,385,1,555666777
+Matteo,Rossi,Büro,Via Rossi 10,00100,Rom,Italien,Büro,39,06,1234567
+Emma,Johnson,Privat,Johnson Street 123,54321,Johnsonville,USA,Privat,1,212,7778888
+Alex,Schneider,Büro,Schneiderallee 5,54321,Schneidertown,Deutschland,Büro,49,40,111222333
+Mia,Li,Privat,Li Lane 999,54321,Litown,China,Privat,86,10,999888777
+Luca,Bianchi,Büro,Via Bianchi 20,00100,Mailand,Italien,Büro,39,02,9876543
+Liam,O'Connell,Privat,O'Connell Street 456,54321,O'Connellsburg,Irland,Privat,353,1,555666777
+Sophia,Müller,Büro,Müllerplatz 7,12345,Müllerstadt,Deutschland,Büro,49,30,777888999
+Mohammed,Al-Farsi,Privat,Al-Farsi Road 77,54321,Al-Farsistan,Saudi-Arabien,Privat,966,11,555666777
+Emily,Chen,Privat,Chen Lane 888,54321,Chentown,China,Privat,86,10,333222111
+Oliver,Schmidt,Büro,Schmidtallee 15,12345,Schmidttown,Deutschland,Büro,49,30,888999000
+Zara,Khan,Privat,Khan Road 456,54321,Khanpur,Pakistan,Privat,92,51,666777888
+Thomas,Müller,Büro,Müllerplatz 1,54321,Müllerburg,Deutschland,Büro,49,30,555444333
+Ava,Lopez,Privat,Lopez Lane 777,54321,Lopeztown,Spanien,Privat,34,91,9876543
+William,Nguyen,Büro,Nguyenstraße 456,54321,Nguyendorf,Vietnam,Büro,84,8,1234567
+Charlotte,Martin,Privat,Martinstraße 99,12345,Martindorf,Deutschland,Privat,49,30,111222333
+Ethan,Kim,Büro,Kimweg 123,54321,Kimtown,Südkorea,Büro,82,2,9876543
+Liam,Wong,Privat,Wongweg 555,54321,Wongstadt,China,Privat,86,10,777888999
